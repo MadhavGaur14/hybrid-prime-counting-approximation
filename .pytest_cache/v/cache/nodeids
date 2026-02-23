@@ -1,0 +1,8 @@
+[
+  "tests/test_accuracy.py::test_all_exact_values",
+  "tests/test_accuracy.py::test_pi_h_accuracy_10_9",
+  "tests/test_convergence.py::test_convergence_rate",
+  "tests/test_convergence.py::test_increasing_N_improves_accuracy",
+  "tests/test_reproducibility.py::test_deterministic_output",
+  "tests/test_reproducibility.py::test_precision_stability"
+]

@@ -1,0 +1,26 @@
+
+\begin{table}[htbp]
+\centering
+\caption{Performance of $\pi_h^{(3)}(x)$ across irregular test values. Three sampling categories test robustness beyond structured grid patterns. Relative error reported in parts per million (ppm).}
+\label{tab:irregular_inputs}
+\begin{tabular}{@{}lrrrrr@{}}
+\toprule
+Category & $x$ & $\log_{10}(x)$ & $\pi(x)$ & Abs. Error & Rel. Error (ppm) \\
+\midrule
+near powers  & 9,790 & 3.99 & 1,223 & 1.40e+01 & 11468 \\
+near powers  & 10,363 & 4.02 & 1,285 & 1.43e+01 & 11113 \\
+random irreg & 34,303 & 4.54 & 3,691 & 2.71e+01 & 7346 \\
+near powers  & 100,302 & 5.00 & 9,656 & 5.09e+01 & 5270 \\
+random irreg & 179,604 & 5.25 & 16,357 & 7.14e+01 & 4368 \\
+random irreg & 182,404 & 5.26 & 16,589 & 7.28e+01 & 4391 \\
+near powers  & 1.00e+06 & 6.00 & 78,656 & 2.17e+02 & 2757 \\
+non decimal  & 1.05e+06 & 6.02 & 82,137 & 2.23e+02 & 2719 \\
+non decimal  & 5.00e+07 & 7.70 & 3,001,564 & 3.54e+03 & 1178 \\
+near powers  & 1.00e+08 & 8.00 & 5,762,197 & 5.98e+03 & 1037 \\
+non decimal  & 1.07e+09 & 9.03 & 54,401,475 & 3.79e+04 & 696 \\
+non decimal  & 3.00e+09 & 9.48 & 144,452,725 & 8.60e+04 & 595 \\
+random irreg & 7.18e+09 & 9.86 & 331,618,355 & 1.74e+05 & 524 \\
+random irreg & 4.03e+11 & 11.61 & 1.57e+10 & 4.87e+06 & 310 \\
+\bottomrule
+\end{tabular}
+\end{table}

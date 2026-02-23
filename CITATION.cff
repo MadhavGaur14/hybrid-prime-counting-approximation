@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "Hybrid Rational Approximation for Prime Counting"
+authors:
+  - family-names: Gaur
+    given-names: Madhav
+version: 1.0.0
+date-released: "2026-02-22"
+url: "https://github.com/MadhavGaur14/hybrid-prime-counting-approximation"
+repository-code: "https://github.com/MadhavGaur14/hybrid-prime-counting-approximation"
+keywords:
+  - prime counting
+  - approximation theory
+  - number theory
+  - computational mathematics
+  - experimental mathematics
+license: MIT
+abstract: |
+  Complete implementation of π_h(x), a hybrid rational approximation to the 
+  prime-counting function π(x), with explicit truncation error bounds. 
+  Achieves median relative error of 0.10% (1,037 ppm) across tested range 
+  with O(N) arithmetic operations for fixed truncation level N.
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Gaur
+      given-names: Madhav
+  title: "A Hybrid Rational Approximation for Prime Counting: Rigorous Construction and Analysis of π_h(x)"
+  journal: "Experimental Mathematics"
+  year: 2026
+  status: submitted

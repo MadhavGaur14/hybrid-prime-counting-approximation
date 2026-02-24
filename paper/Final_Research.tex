@@ -20,9 +20,9 @@
 \newtheorem{conjecture}{Conjecture}
 
 \title{A Hybrid Rational Approximation for Prime Counting: \\
-Rigorous Construction and Analysis of $\pi_h(x)$}
+Rigorous Construction and Analysis of $\pi_h(x)$\thanks{Code and data available at: \texttt{https://github.com/MadhavGaur14/hybrid-prime-counting-approximation} and archived at \texttt{https://doi.org/10.5281/zenodo.18749890}}}
 \author{Madhav Gaur}
-\date{February 4, 2026}
+\date{February 25, 2026}
 
 \begin{document}
 
@@ -1191,7 +1191,14 @@ These limitations clarify the precise scope of the contribution: an explicitly a
 
 \subsection{Current Repository Status}
 
-\textbf{Critical gap:} The repository URL listed as \texttt{[repository\_url\_to\_be\_added]} is a placeholder. \textbf{For publication, a complete reproducibility package with DOI must be provided.}
+The complete reproducibility package for this work is publicly available at:
+
+\begin{itemize}
+\item \textbf{GitHub Repository:} \texttt{https://github.com/MadhavGaur14/hybrid-prime-counting-approximation}
+\item \textbf{Zenodo Archive (Permanent DOI):} \texttt{https://doi.org/10.5281/zenodo.18749890}
+\end{itemize}
+
+The repository contains all source code, experimental data, documentation, and scripts necessary to reproduce every result presented in this paper.
 
 \subsection{Required Reproducibility Package}
 
@@ -1269,24 +1276,27 @@ Before submission, the package must pass:
 
 \subsection{Reproducibility Statement}
 
-\textbf{Current status:} The computational framework exists and was used to generate all results. However, \textbf{the code is not yet publicly available}, which means:
+\textbf{Full Transparency:} The complete reproducibility package, including all source code, data, and documentation as specified in Section~7.2, is publicly available at:
+
 \begin{itemize}
-\item Results cannot currently be independently verified
-\item The paper does not meet reproducibility standards for publication
-\item Reviewers cannot check implementation details
+\item \textbf{GitHub:} \texttt{https://github.com/MadhavGaur14/hybrid-prime-counting-approximation}
+\item \textbf{Zenodo (DOI):} \texttt{https://doi.org/10.5281/zenodo.18749890}
 \end{itemize}
 
-\textbf{Concrete commitment:} The complete reproducibility package, including all source code, data, and documentation as specified in Section~7.2, will be made publicly available on GitHub and archived on Zenodo with a permanent DOI \textbf{upon acceptance of this manuscript for publication}. Until then, a preliminary version can be made available to reviewers upon request. This ensures full transparency and independent verification of all experimental claims.
+This ensures full transparency and independent verification of all experimental claims. All results in Section~5 are independently verifiable using the archived code and data.
 
-\textbf{Action timeline:}
-\begin{enumerate}
-\item Upon acceptance notification: Create complete GitHub repository
-\item Within 2 weeks of acceptance: Archive on Zenodo and obtain DOI
-\item Before final publication: Update camera-ready manuscript with actual URLs and DOI
-\item Post-publication: Maintain repository and respond to replication queries
-\end{enumerate}
+\textbf{Repository Contents:}
+\begin{itemize}
+\item Source code for all approximations ($\pi_g(x)$, $\pi_h^{(N)}(x)$, comparison methods)
+\item Complete experimental data (CSV files with all computed values)
+\item Figure generation scripts (reproducing all plots in the paper)
+\item Documentation (installation guide, replication instructions)
+\item Unit tests (correctness verification and reproducibility checksums)
+\end{itemize}
 
-This transparency commitment ensures that all claims in Section~5 are independently verifiable and meets the reproducibility standards expected by Experimental Mathematics.
+\textbf{Post-publication commitment:} The repository will be maintained and we commit to responding to replication queries and providing support for independent verification.
+
+This transparency commitment meets the reproducibility standards expected by Experimental Mathematics.
 
 \section{Conclusion}
 
@@ -1418,6 +1428,8 @@ The experimental methodology—rigorous construction, explicit error analysis, a
 \bibitem{rosser1941} J. Barkley Rosser. Explicit bounds for some functions of prime numbers. \emph{American Journal of Mathematics}, 63(1):211--232, 1941.
 
 \bibitem{trudgian2021} David J. Platt and Timothy S. Trudgian. The Riemann hypothesis is true up to $3 \cdot 10^{12}$. \emph{Bulletin of the London Mathematical Society}, 53(3):792--797, 2021.
+
+\bibitem{gaur2026code} Madhav Gaur. Hybrid Prime Counting Approximation: Reference Implementation and Experimental Data. Zenodo, 2026. \texttt{https://doi.org/10.5281/zenodo.18749890}
 
 \end{thebibliography}
 \input{appendix}
